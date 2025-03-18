@@ -1,7 +1,7 @@
 package com.example.aichatbot.chat.entity
 
 import com.example.aichatbot.BaseEntity
-import com.example.aichatbot.user.User
+import com.example.aichatbot.user.entity.User
 import jakarta.persistence.*
 
 @Entity

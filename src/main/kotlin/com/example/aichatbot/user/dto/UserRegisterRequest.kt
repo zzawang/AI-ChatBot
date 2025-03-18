@@ -1,6 +1,6 @@
 package com.example.aichatbot.user.dto
 
-import com.example.aichatbot.user.Role
+import com.example.aichatbot.user.entity.Role
 import jakarta.validation.constraints.Email
 import jakarta.validation.constraints.NotBlank
 import jakarta.validation.constraints.Null

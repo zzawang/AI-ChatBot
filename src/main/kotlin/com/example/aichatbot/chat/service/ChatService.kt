@@ -8,9 +8,9 @@ import com.example.aichatbot.chat.entity.Chat
 import com.example.aichatbot.chat.entity.Thread
 import com.example.aichatbot.chat.repository.ChatRepository
 import com.example.aichatbot.chat.repository.ThreadRepository
-import com.example.aichatbot.user.Role
-import com.example.aichatbot.user.User
-import com.example.aichatbot.user.UserRepository
+import com.example.aichatbot.user.entity.Role
+import com.example.aichatbot.user.entity.User
+import com.example.aichatbot.user.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.web.reactive.function.client.WebClient

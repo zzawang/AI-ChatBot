@@ -2,7 +2,7 @@ package com.example.aichatbot.chat.repository
 
 import com.example.aichatbot.chat.entity.Chat
 import com.example.aichatbot.chat.entity.Thread
-import com.example.aichatbot.user.User
+import com.example.aichatbot.user.entity.User
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable

@@ -1,6 +1,6 @@
 package com.example.aichatbot.auth
 
-import com.example.aichatbot.user.User
+import com.example.aichatbot.user.entity.User
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 import org.springframework.beans.factory.annotation.Value

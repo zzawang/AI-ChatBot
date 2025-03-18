@@ -1,5 +1,7 @@
-package com.example.aichatbot.user
+package com.example.aichatbot.user.controller
 
+import com.example.aichatbot.user.service.UserService
+import com.example.aichatbot.user.entity.User
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 

@@ -1,9 +1,12 @@
-package com.example.aichatbot.user
+package com.example.aichatbot.user.service
 
 import com.example.aichatbot.auth.TokenService
+import com.example.aichatbot.user.repository.UserRepository
 import com.example.aichatbot.user.dto.UserLoginRequest
 import com.example.aichatbot.user.dto.UserRegisterRequest
 import com.example.aichatbot.user.dto.UserRegisterResponse
+import com.example.aichatbot.user.entity.Role
+import com.example.aichatbot.user.entity.User
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 import org.springframework.stereotype.Service

@@ -1,4 +1,4 @@
-package com.example.aichatbot.user
+package com.example.aichatbot.user.entity
 
 import com.example.aichatbot.BaseEntity
 import com.example.aichatbot.chat.entity.Thread

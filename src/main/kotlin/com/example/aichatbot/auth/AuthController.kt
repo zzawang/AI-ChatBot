@@ -1,6 +1,6 @@
 package com.example.aichatbot.auth
 
-import com.example.aichatbot.user.UserService
+import com.example.aichatbot.user.service.UserService
 import com.example.aichatbot.user.dto.UserLoginRequest
 import com.example.aichatbot.user.dto.UserRegisterRequest
 import com.example.aichatbot.user.dto.UserRegisterResponse

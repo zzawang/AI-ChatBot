@@ -1,5 +1,6 @@
-package com.example.aichatbot.user
+package com.example.aichatbot.user.repository
 
+import com.example.aichatbot.user.entity.User
 import org.springframework.data.jpa.repository.JpaRepository
 import java.util.*
 
