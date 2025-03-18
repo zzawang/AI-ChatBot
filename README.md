@@ -32,7 +32,7 @@
 ## 실행 방법
 
 `application.properties` 에 비어있는 값을 넣은 후, 아래 명령어로 실행<br>
-`jwt.secret-key` 같은 경우, 50자 이상의 임의의 문자열 삽입 필요<br>
+`jwt.secret-key` 같은 경우, 50자 이상의 임의의 값 삽입 필요<br>
 `jwt.expiration-time` 같은 경우, 따로 설정하지 않으면 기본값 적용
 
 (저는 Local DB로 구현했으나, 실행의 편의성을 위해 Docker 실행 방법을 첨부합니다.)
